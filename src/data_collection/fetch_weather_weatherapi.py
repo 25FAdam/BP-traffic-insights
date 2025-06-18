@@ -13,7 +13,7 @@ def fetch_weather():
         data = response.json()
         timestamp = datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
         os.makedirs("data", exist_ok=True)
-        filename = f"data/weatherapi_{timestamp}.json"
+        filename = f"data/raw/weatherapi_{timestamp}.json"
         with open(filename, "w") as f:
             json.dump(data, f, indent=4)
         print(f"Weather data saved to {filename}")
