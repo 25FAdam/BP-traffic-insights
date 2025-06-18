@@ -6,3 +6,4 @@ scikit-learn
 folium
 openweathermapy
 matplotlib
+websocket-client
