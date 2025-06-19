@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 Status: Currently under development. Features are being added iteratively.
-=======
-# ------WORK IN PROGRESS------
->>>>>>> b7813576c421e8d943fd10487001e8866bf36412
 
 # Budapest Intelligent Traffic Insight System (BITIS)
 
