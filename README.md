@@ -1,25 +1,29 @@
+Status: Currently under development. Features are being added iteratively.
+
 # Budapest Intelligent Traffic Insight System (BITIS)
 
 An open-source system that visualizes, simulates, and predicts public transportation and traffic flow in Budapest using real-time APIs and machine learning.
 
 ## Features
-- Real-time public transport data visualization (BKK FUTÁR API)
-- Weather data integration (OpenWeatherMap API)
-- Traffic pattern prediction with ML models
-- Streamlit dashboard for interactive exploration
+
+### Real-Time Data Integration
+- Integrates GTFS real-time (RT) feeds from BKK to track live positions of trams, buses, and metros.
+
+### Interactive Map Dashboard
+- Visualizes transit routes and live vehicle locations on an interactive map.
+- Highlights areas of high congestion or unusual delays.
+
+### Historical Analysis
+- Processes and analyzes historical GTFS data.
+- Generates trends of average delay per line, route, or district.
+
+### Anomaly Detection
+- Applies machine learning techniques (e.g., Isolation Forest, clustering) to detect unusual delays or route disruptions.
+- Flags deviations from historical norms.
 
 ## Project Structure
 
-```
-.
-├── data/ # Raw and processed data files
-├── notebooks/ # EDA and model-building notebooks
-├── src/ # Core source code (API, ML, etc.)
-├── models/ # Trained models and pipeline outputs
-├── dashboard/ # Streamlit frontend components
-├── requirements.txt
-└── README.md
-```
+...
 
 ## Getting Started
 ```bash
